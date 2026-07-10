@@ -18,7 +18,7 @@ namespace BryanEscobar.Lab01.Controllers
                 "Convertirme en líder de equipo.",
                 "Ser líder de proyecto.",
                 "Escalar y poder presentar productos de software en grandes conferencias con pitches profesionales.",
-                "Convertirme en CTO de alguna compañía y desarrollar una habilidad en comunicación corporativa con excelencia."
+                "Convertirme en CTO de alguna compañía y desarrollar una habilidad en comunicación corporativa excelente."
             };
             ViewBag.EtapaActual = 1;
 
