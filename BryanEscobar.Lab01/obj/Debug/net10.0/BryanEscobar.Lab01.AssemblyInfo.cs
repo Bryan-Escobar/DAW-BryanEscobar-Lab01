@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BryanEscobar.Lab01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+374ceaabe26c005ab76c3babd742b15ffebac3f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BryanEscobar.Lab01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BryanEscobar.Lab01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
