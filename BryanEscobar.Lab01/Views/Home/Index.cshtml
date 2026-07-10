@@ -5,7 +5,7 @@
 <div class="container py-4">
     <div class="text-center mb-5">
         <h1 class="display-4 fw-bold">Bienvenido</h1>
-        <p class="lead text-muted">Mi primera aplicación ASP.NET Core MVC</p>
+        <p class="lead text-corporate-muted">Mi primera aplicación ASP.NET Core MVC</p>
     </div>
 
     <div class="row justify-content-center align-items-center g-4 mb-4">
@@ -18,8 +18,8 @@
         </div>
 
         <div class="col-md-6">
-            <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">
+            <div class="card shadow-sm card-corporate">
+                <div class="card-header card-header-corporate">
                     <h2 class="h5 mb-0">Información personal</h2>
                 </div>
                 <div class="card-body">
@@ -41,8 +41,8 @@
 
     <div class="row justify-content-center mb-4">
         <div class="col-md-10">
-            <div class="card shadow-sm">
-                <div class="card-header bg-secondary text-white">
+            <div class="card shadow-sm card-corporate">
+                <div class="card-header card-header-corporate">
                     <h2 class="h5 mb-0"><i class="bi bi-person-lines-fill me-2"></i>Sobre mí</h2>
                 </div>
                 <div class="card-body">
@@ -54,7 +54,7 @@
 
     <div class="row justify-content-center mb-4">
         <div class="col-md-10">
-            <div class="alert alert-info text-center mb-0 shadow-sm">
+            <div class="alert alert-corporate text-center mb-0 shadow-sm">
                 <i class="bi bi-clock me-2"></i>
                 Fecha y hora actual: <strong>@DateTime.Now</strong>
             </div>
@@ -63,18 +63,18 @@
 
     <div class="row justify-content-center mt-2">
         <div class="col-md-10">
-            <div class="card shadow-sm">
-                <div class="card-header bg-dark text-white">
+            <div class="card shadow-sm card-corporate">
+                <div class="card-header card-header-corporate-dark">
                     <h2 class="h5 mb-0"><i class="bi bi-signpost-split me-2"></i>Sección Personalizada: Mi plan profesional</h2>
                 </div>
                 <div class="card-body">
-                    <p class="text-muted mb-3">Progreso en mi camino profesional — etapa actual: <span class="badge bg-primary">@ViewBag.EtapaActual de @(((List<string>)ViewBag.MetasProfesionales).Count)</span></p>
+                    <p class="text-corporate-muted mb-3">Progreso en mi camino profesional — etapa actual: <span class="badge bg-secondary">@ViewBag.EtapaActual de @(((List<string>)ViewBag.MetasProfesionales).Count)</span></p>
 
                     @{
                         var progreso = (int)ViewBag.EtapaActual * 100 / ((List<string>)ViewBag.MetasProfesionales).Count;
                     }
                     <div class="progress mb-4" style="height: 1.5rem;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
                              role="progressbar"
                              style="width: @progreso%;"
                              aria-valuenow="@progreso"
@@ -98,13 +98,13 @@
                     </ol>
 
                     <div class="text-center mt-4">
-                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#roadmapDetalle">
+                        <button type="button" class="btn btn-corporate-cta btn-lg" data-bs-toggle="collapse" data-bs-target="#roadmapDetalle">
                             <i class="bi bi-rocket-takeoff me-2"></i>Ver mi plan completo
                         </button>
                     </div>
 
                     <div class="collapse mt-3" id="roadmapDetalle">
-                        <div class="alert alert-success mb-0">
+                        <div class="alert alert-corporate-accent mb-0">
                             <i class="bi bi-lightbulb me-2"></i>
                             <strong>Enfoque actual:</strong> Estoy en la primera etapa, combinando mis estudios con experiencia práctica para construir una base sólida antes de asumir roles de liderazgo.
                         </div>
